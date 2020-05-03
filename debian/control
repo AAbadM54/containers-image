@@ -1,0 +1,17 @@
+Source: containers-image
+Section: devel
+Priority: optional
+Maintainer: Jonathan Springer <jonpspri@gmail.com>
+Build-Depends: debhelper-compat (=12),
+    dh-golang,
+    golang-go,
+    go-md2man
+Standards-Version: 4.4.1
+Homepage: https://github.com/containers/image
+Vcs-Browser: https://github.com/containers/image
+Vcs-Git: https://github.com/containers/image
+
+Package: containers-image
+Architecture: all
+Depends: ${misc:Depends}
+Description: Configuration files for working with image signatures.
