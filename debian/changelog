@@ -1,3 +1,9 @@
+containers-image (5.4.3-1) eoan; urgency=medium
+
+  * Change debhelper-compat to 11 to support bionic builds
+
+ -- Jonathan Springer <jonpspri@gmail.com>  Thu, 07 May 2020 15:14:56 -0400
+
 containers-image (5.4.3-0) eoan; urgency=medium
 
   * v5.4.3 debian/ubuntu packaging
